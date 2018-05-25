@@ -12,6 +12,10 @@ public class WorkEx {
 		String input= scanner.nextLine();
 		int num = Integer.parseInt(input);
 		
+		//int num= scanner.nextInt(); 	입력받은 문자열을 정수(int)로 받아 전달
+		
+
+		
 		System.out.printf("입력받은 정수는 :%d%n",num);
 		System.out.printf("%d의 8진수는%o이다%n",num,num);
 		System.out.printf("%d의 16진수는%x이다%n",num,num);

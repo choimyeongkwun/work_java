@@ -11,3 +11,4 @@ public class CharToCode {
 		System.out.printf("%c=%d(%#X)",hch, (int)hch, (int)hch);
 	}
 }
+
