@@ -9,11 +9,11 @@ public class Ch02Ex01_04 {
 		//System.out.printf("%10s", "count");
 		//System.out.printf("%10s%n","price");
 		System.out.printf("%10s\t%s\t %s%n","item","count","price");
-		System.out.printf("%10s","pen");
-		System.out.printf("%10s","20");
-		System.out.printf("%10s%n","100");
+		System.out.printf("%10s%10d%10s%n","pen",20,"100");
+		//System.out.printf("%10s","20");
+		//System.out.printf("%10s%n","100");
 		System.out.printf("%10s","note");
-		System.out.printf("%10s","5");
+		System.out.printf("%10d",5);
 		System.out.printf("%10s%n","95");
 		System.out.printf("%10s","eraser");
 		System.out.printf("%10s","110");

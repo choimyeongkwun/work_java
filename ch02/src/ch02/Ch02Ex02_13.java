@@ -17,7 +17,7 @@ public class Ch02Ex02_13 {
 		int c = Integer.parseInt(input3);
 		
 		int sum = a + b + c;
-		int avg = (a + b+ c)/3;
+		int avg = (sum)/3;
 		
 		System.out.printf("sum = %d%navg = %d",sum,avg);
 	}
