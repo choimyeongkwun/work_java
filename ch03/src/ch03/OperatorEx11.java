@@ -1,0 +1,25 @@
+package ch03;
+
+public class OperatorEx11 {
+
+	public static void main(String[] args) {
+		// TODO 책 102쪽 표 3-8 참고
+		char a = 'a'; // 아스키 코드 값 97
+		char d = 'd'; // 아스키 코드값 100
+		char zero = '0'; // 아스키 코드값 48
+		char two = '2'; // 아스키코드값 50
+		char three  = 'h';
+		int s2 = '3';
+		
+		//char형은 사칙연산 시, 아스키 코드 값으로 연산한다.
+		System.out.printf("'%c' - '%c' = %d%n", d,a,d-a); // 'd'-'a'=3
+		System.out.printf("'%c' - '%c' = %d%n", two, zero, two-zero);
+		System.out.printf("'%c' =%d%n", a, (int)a);
+		System.out.printf("'%c' =%d%n", d, (int)d);
+		System.out.printf("'%c' =%d%n", zero,(int)zero);
+		System.out.printf("'%c' =%d%n", two, (int)two);
+		System.out.printf("'%c' - '%c' =%d%n", a,d,a-d);
+		System.out.printf("%d%n",s2);
+	}
+
+}
