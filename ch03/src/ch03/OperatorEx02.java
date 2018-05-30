@@ -8,7 +8,7 @@ public class OperatorEx02 {
 		j= i++;
 		System.out.println("j=i++; 실행후, i="+ i +", j="+j);
 		
-		i=5; //결과를 비교하기 위해, i와j의 값을 다시 5와 0으로 변경
+		//i=5; //결과를 비교하기 위해, i와j의 값을 다시 5와 0으로 변경
 		j=0;
 		
 		j= ++i;
@@ -16,4 +16,5 @@ public class OperatorEx02 {
 		
 	}
 
+	
 }

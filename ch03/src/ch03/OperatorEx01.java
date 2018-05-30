@@ -15,10 +15,14 @@ public class OperatorEx01 {
 		 * ++i 는 먼저 증가하고 변수 i를 사용
 		 */
 		
-		i=5;
-		System.out.println(i++); // 사용하고 1 증가이기 때문에 5 출력, i=5
 		
-		System.out.println(++i); // 1증가하고 사용하기 때문에 6 출력, i=6
+		i=5;
+		int j=5;
+		System.out.println(i++); // 사용하고 1 증가이기 때문에 5 출력, i=5
+		System.out.println(i++);
+		System.out.println(++i);
+		
+		System.out.println(++j); // 1증가하고 사용하기 때문에 6 출력, i=6
 		}
 }
 
