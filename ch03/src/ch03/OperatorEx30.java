@@ -8,6 +8,9 @@ public class OperatorEx30 {
 		String tmp = zero  + Integer.toBinaryString(x);
 		return tmp .substring(tmp.length()-32);
 	}
+		//private void main(tmp) {
+		// }	
+		
 	public static void main(String[] args) {
 		int dec = 8;
 		

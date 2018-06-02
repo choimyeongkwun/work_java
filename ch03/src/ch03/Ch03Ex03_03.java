@@ -16,7 +16,9 @@ public class Ch03Ex03_03 {
 		String input3 = scanner.nextLine();
 		int z = Integer.parseInt(input3);
 		
-		System.out.printf("avg = %.1f",(float)(x+y+z)/3);
+		float avg = (x+y+z)/3.0f;
+		
+		System.out.printf("avg = %.1f",avg);
 		// 3개의 정수를 float형으로 형변환하여 계산
 	}
 
