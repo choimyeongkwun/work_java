@@ -10,6 +10,8 @@ public class Exercise3_2 {
 		
 		int numOfBucket = (int) Math.round((numOfApples/(double)sizeOfBucket+0.5));
 		System.out.println(numOfBucket);
+		
+		//numOfApples/sizeOfbucket +(numOfApples % sizeOfBucket > 0? 1: 0);
 	}
 
 }

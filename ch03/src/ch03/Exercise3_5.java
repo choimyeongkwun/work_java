@@ -6,6 +6,7 @@ public class Exercise3_5 {
 		// TODO Auto-generated method stub
 		int num = 333;
 		System.out.println((num/10)*10+1);
+		//Systen.out.println(10 - num % 10);
 	}
 
 }
