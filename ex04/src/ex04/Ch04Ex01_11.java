@@ -9,12 +9,12 @@ public class Ch04Ex01_11 {
 		Scanner scanner = new Scanner(System.in);
 		String input = scanner.nextLine();
 		int a = Integer.parseInt(input);
-		
+		//int a = Inateger.parseINt(scanner.nextLine()):
 		if(a==0) {
 			System.out.println("zero");
-			}else if(a>=0) {
+			}else if(a>0) {
 				System.out.println("plus");
-			}else if(a<=0) {
+			}else if(a<0) {
 				System.out.println("minus");
 			}else
 				System.out.println("error");

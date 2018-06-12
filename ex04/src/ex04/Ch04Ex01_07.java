@@ -8,7 +8,9 @@ public class Ch04Ex01_07 {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		String str[] = scanner.nextLine().split(" ");
-		
+		/*
+		 * char  str1 =scanner.nextLine().charAt(0);
+		 */
 		String grade = str[0];
 		if(grade.equals("A"))
 		{System.out.println("Excellecnt");
@@ -24,5 +26,23 @@ public class Ch04Ex01_07 {
 			System.out.println("error");
 		}
 	}
-
-}
+}	
+		/*
+		 * switch 를 사용 [방법2]
+		 * 
+		 * 1. 문자열 하나를 입력받는다
+		 * Scanner scanner = new Scanner(System.in);
+		 * String grade = scanner.nextLine();
+		 * 
+		 * 2. switch문을 이용하여 등급에 맞는 문자열 출력
+		 * switch(grade){
+		 * case "A":
+		 * System.out.ptintln("Excellecnt");
+		 * break;
+		 * case "B":
+		 * System.out.println("good");
+		 * break;
+		 * case "C":
+		 * System.out.println("Usually");
+		 * 
+		 */

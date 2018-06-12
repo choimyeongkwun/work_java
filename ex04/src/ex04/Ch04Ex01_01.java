@@ -6,6 +6,7 @@ public class Ch04Ex01_01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//1.정수입력받기
 		Scanner scanner = new Scanner(System.in);
 		String input = scanner.nextLine();
 		int i = Integer.parseInt(input);

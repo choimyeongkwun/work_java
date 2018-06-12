@@ -23,4 +23,15 @@ public class Ch04Ex01_13 {
 		}
 	}
 
-}
+} /* switch 문 이용
+	switch(a)
+	case 1:
+	System.out.println("dog");
+	break;
+	case 2:
+	System.out.println("cat");
+	break;
+	case 3:
+	System.out.println("chick");
+	break;
+*/

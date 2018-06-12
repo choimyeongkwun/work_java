@@ -9,7 +9,7 @@ public class Ch04Ex01_08 {
 		float a = Float.parseFloat(input);
 		
 		switch((int)a){
-		case 4:
+		case 4: 
 		System.out.println("scholarship");
 		break;
 		case 3:

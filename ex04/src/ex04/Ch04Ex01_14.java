@@ -22,4 +22,18 @@ public class Ch04Ex01_14 {
 		}
 	}
 
-}
+}	/*
+		2. if문 사용
+		if(1<=month && month<=12){
+		boolean isOdd = month % 2 !=0; // 홀수이면 true
+		boolean is90rLess = month <=9;// 9월 이하이면 true
+		boolean is0ctDec = month == 10 || month == 12;
+		//10월이거나 12월이면 true
+		if(isOdd && is90rLess || isOctDec){
+		System.out.println(31);
+		}else if (month == 2){
+		System.out.println(2);
+		}else {
+		System.out.println(31)
+ 		}
+ 		*/
