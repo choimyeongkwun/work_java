@@ -50,7 +50,8 @@ public class Ch04Ex02_11 {
 			else {
 				System.out.println("같다.");
 			}
-		
+		// eaulsIgnoreCase():괄호안의 문자열의 대소문자 구분없이
+			// 변수와 값이 같다면 true,아니면false리턴
 
 		}
 	}
