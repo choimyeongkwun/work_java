@@ -19,6 +19,7 @@ public class ArrayEx3 {
 			for(int i=0; i< arr.length;i++) {
 				tmp[i]= arr[i];
 			}
+			
 			arr = tmp; //tmp에 저장된 값을 arr에 저장한다
 			
 			System.out.println("[변경후]");
