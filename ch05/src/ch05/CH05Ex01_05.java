@@ -13,7 +13,13 @@ public class CH05Ex01_05 {
 	     int x= Integer.parseInt(input[0]);
 	     int y= Integer.parseInt(input[1]);
 	     
-	    double avg = num[x-1] + num[y-1];
+	     // 입력받은 번호를 이용하여 각 반의 평균값 배열에서 끄집어내기
+	     //double num01 = avgs[Integer.parseInt(class[0]-1)];
+	     //double num01 = avgs[Integer.parseInt(class[1]-1)];
+	    
+	     
+	     
+	     double avg = num[x-1] + num[y-1];
 	    	 System.out.println(avg);
 	    	
 	     
